@@ -1,0 +1,8 @@
+body {
+    font-family: "Helvetica", Sans-Serif;
+    background-image: url("../imagenes/fondozelda.jpg");
+    background-size: cover; 
+    background-attachment: fixed; 
+    margin: 0; 
+    padding: 0; 
+}

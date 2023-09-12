@@ -1,0 +1,36 @@
+nav {
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(194, 211, 241);
+
+}
+
+nav > ul{
+    list-style-type: none;
+}
+
+nav > ul > li {
+    float: left;
+}
+
+nav > ul > li > a{
+    color: black;
+    display: block;
+    padding: 5px;
+    border: chocolate ;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+/*seudoclases*/
+
+nav ul a:focus{
+    color: red;
+    border-color: aqua;
+}
+
+nav ul a:hover{
+    color: rgb(0, 0, 0);
+    border-color: rgb(146, 146, 43);
+}

@@ -1,0 +1,17 @@
+header img {
+    float:left;
+
+}
+
+header p{
+    float: left;
+    padding: 20px;
+    background-color: burlywood;
+    border: 2px solid black;
+}
+
+header {
+    opacity: 0.6;
+    background-image: url("../imagenes/fondo.jpg");
+
+}

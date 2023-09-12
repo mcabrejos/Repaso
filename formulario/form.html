@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang = "es" > 
+    <head>
+        <title> Ejemplo  de Js formulario </title>
+       
+    </head>
+
+    <body>
+        <h1> Formulario sencillo</h1>
+        <form action= "#" method = "GET">
+            <p>
+                Valor 1 : <input type= "text" name="v1" id="id1">
+            </p>
+            <p>
+                Valor 2 : <input type= "text" name="v2" id="id2">
+            </p>
+            <input type="button" value="Sumar" onclick="sumar();"></button>
+            <input type="reset" value="Limpiar"> 
+            <p> 
+               <h2> La respuesta es </h2> 
+               <div id="rpta"></div> 
+            </p>
+        </form>
+
+        <script src="./js/suma.js"></script>
+    </body>
+
+</html>
